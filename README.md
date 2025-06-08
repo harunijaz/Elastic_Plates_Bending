@@ -1,3 +1,3 @@
 # Elastic_Plates_Bending
 
-This repository will be available once the paper gets accepted.
+The code will be available once the paper gets accepted.
