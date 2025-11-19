@@ -17,6 +17,19 @@ This study introduces a physics-aware, mesh-free deep learning framework for mod
 range of boundary configurations, addressing key limitations of conventional numerical techniques and earlier PINN-based approaches. The formulation is based on minimizing the total potential of the system, which incorporates internal strain energy, virtual external work, and support-specific boundary penalty terms. Distinct constraints on each plate edge are enforced through edge-dependent penalties, enabling automatic adaptation to changing boundary conditions without remeshing or problem reformulation. The neural
 network architecture consists of three decoupled subnetworks to approximate transverse and in-plane displacements. Automatic differentiation is employed to compute curvature and slope terms essential for higher-order plate theory. The training process combines structured and randomized sampling across both domain interiors and boundaries to ensure accuracy and stability. Benchmark comparisons against finite element method (FEM) results demonstrate that the proposed model achieves mean relative errors below 3% across diverse support configurations. The framework captures both out-of-plane and in-plane displacement fields with high fidelity and robust convergence. These results highlight the method’s potential as a flexible, generalizable solution for elastic plate deformation analysis in engineering applications involving complex geometries and support conditions.
 
+## Results
+
+### Simply Supported Rectangular Plate (SSSS) – Uniform Load
+<img src="figures/CCCF_Deflection_Comparison_Line_Plot.png" width="800"/>
+
+### Fully Clamped Plate (CCCC) – Central Point Load
+<img src="figures/CCFF_Deflection_Comparison_Line_Plot.png" width="800"/>
+
+### Mixed Boundaries (Two Edges Clamped, Two Free – CCFF)
+<img src="figures/CSFF_Deflection_Comparison_Line_Plot.png" width="800"/>
+
+
+
 ## Acknowledgements
 
 This work is built upon the open-source [repository](https://github.com/weili101/Deep_Plates). We sincerely thank the author for making the original code publicly available.
