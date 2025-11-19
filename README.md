@@ -20,7 +20,7 @@ network architecture consists of three decoupled subnetworks to approximate tran
 ## Results
 
 ### Simply Supported Rectangular Plate (SSSS) – Uniform Load
-<img src="figures/CCCF_Deflection_Comparison_Line_Plot.png" width="800"/>
+<img src="figures/ccff_loss_convergence.pdf" width="800"/>
 
 ### Fully Clamped Plate (CCCC) – Central Point Load
 <img src="figures/CCFF_Deflection_Comparison_Line_Plot.png" width="800"/>
