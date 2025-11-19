@@ -20,13 +20,13 @@ network architecture consists of three decoupled subnetworks to approximate tran
 ## Results
 
 ### Framework
-<img src="figures/fig3.jpg" width="800"/>
+<img src="figures/fig3.JPG" width="800"/>
 
 ### CCSS bending and error analysis
-<img src="figures/fig2.jpg" width="800"/>
+<img src="figures/fig2.JPG" width="800"/>
 
 ### CCSS interim results during training
-<img src="figures/fig1.jpg" width="800"/>
+<img src="figures/fig1.JPG" width="800"/>
 
 
 
