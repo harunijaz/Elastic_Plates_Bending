@@ -19,14 +19,14 @@ network architecture consists of three decoupled subnetworks to approximate tran
 
 ## Results
 
-### Simply Supported Rectangular Plate (SSSS) – Uniform Load
-<img src="figures/ccff_loss_convergence.pdf" width="800"/>
+### Framework
+<img src="figures/fig3.jpg" width="800"/>
 
-### Fully Clamped Plate (CCCC) – Central Point Load
-<img src="figures/CCFF_Deflection_Comparison_Line_Plot.png" width="800"/>
+### CCSS bending and error analysis
+<img src="figures/fig2.jpg" width="800"/>
 
-### Mixed Boundaries (Two Edges Clamped, Two Free – CCFF)
-<img src="figures/CSFF_Deflection_Comparison_Line_Plot.png" width="800"/>
+### CCSS interim results during training
+<img src="figures/fig1.jpg" width="800"/>
 
 
 
